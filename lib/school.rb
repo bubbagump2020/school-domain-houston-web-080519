@@ -1,3 +1,4 @@
+require 'pry'
 class School
   
   attr_accessor :name
@@ -20,7 +21,7 @@ class School
     
     
   end
-  binding.pry
+  
   def grade(student_grade)
     @@roster[student_grade]
   end
