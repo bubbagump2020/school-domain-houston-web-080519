@@ -22,7 +22,7 @@ class School
       @@roster[student_grade].push(student_name)
     end
     
-    binding.pry
+    #binding.pry
     
   end
   
