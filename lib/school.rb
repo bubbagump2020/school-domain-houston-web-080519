@@ -19,7 +19,7 @@ class School
     if @@roster[student_grade] == student_grade
       @@roster[student_grade].push(student_name)
     else
-      @@rooster[student_grade] = 1
+      @@roster[student_grade] = 1
     end
     
     
