@@ -18,8 +18,6 @@ class School
     @@roster[student_grade] << student_name
     if @@roster[student_grade] == student_grade
       @@roster[student_grade].push(student_name)
-    else
-      @@roster[student_grade].push(student_name)
     end
     
     
