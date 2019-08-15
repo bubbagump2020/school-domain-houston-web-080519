@@ -16,8 +16,11 @@ class School
   def add_student(student_name, student_grade)
     @@roster[student_grade] = []
     @@roster[student_grade] << student_name
-    
-      
+    if @@roster[student_grade] == student_grade
+      @@roster[student_grade].push(student_name)
+    else
+      @@rooster[student_grade] = 1
+    end
     
     
   end
