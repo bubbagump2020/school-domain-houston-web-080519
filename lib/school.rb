@@ -19,7 +19,7 @@ class School
     #@@roster[student_grade] << student_name
     
     if @@roster.keys != student_grade
-      @@roster[student_grade].push(student_name)
+      @@roster[student_grade].unshift(student_name)
     end
     
     #binding.pry
