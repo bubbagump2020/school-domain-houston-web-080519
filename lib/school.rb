@@ -15,7 +15,7 @@ class School
   
   def add_student(student_name, student_grade)
     @@roster[student_grade] = []
-    if @@roster[student_grade][student_name] != student_name
+    if @@roster[student_name] != student_name
       @@roster[student_grade] << student_name
     end
       
